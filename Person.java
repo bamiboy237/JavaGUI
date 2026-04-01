@@ -1,9 +1,10 @@
+import java.io.Serializable;
 
 // Guy-robert Bogning
 // March 18, 2026
 // Implements a person class
 
-public class Person {
+public class Person implements Serializable {
 
     private String firstName;
     private String lastName;
