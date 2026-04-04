@@ -4,8 +4,8 @@ import java.awt.event.*;
 
 public class GenericGUIApp extends JFrame {
     
-    private static final int WIDTH = 400;
-    private static final int HEIGHT = 400;
+    private static final int WIDTH = 1000;
+    private static final int HEIGHT = 700;
     
     public static void main(String[] args) {
         GenericGUIApp g = new GenericGUIApp();
@@ -16,7 +16,7 @@ public class GenericGUIApp extends JFrame {
         super("The Greatest Generic GUI App Ever");
         
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        JPanel jp = new MouseMotionJPanel();
+        JPanel jp = new BGR_WikiRabbitHole();
         add(jp);
         setSize(WIDTH, HEIGHT);
         setResizable(false);
